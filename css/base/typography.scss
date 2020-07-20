@@ -56,10 +56,18 @@ code, pre {
 
 h1, .h1 {
     @extend .text-size--xl;
+
+    .vds-badge {
+        vertical-align: 50%;
+    }
 }
 
 h2, .h2 {
     @extend .text-size--l;
+
+    .vds-badge {
+        vertical-align: 50%;
+    }
 }
 
 h3, .h3 {
