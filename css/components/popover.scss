@@ -23,11 +23,52 @@
         border-bottom-color: #fff;
         filter: drop-shadow(0 -0.0625rem 0.0625rem rgba(0, 0, 0, 0.1));
     }
+
+    &--pos-top-right {
+        &:before {
+            right: 1rem;
+            left: unset;
+        }
+    }
+
+    &--pos-top-center {
+        &:before {
+            left: 50%;
+        }
+    }
+
+    &--width-small {
+        width: 14rem;
+    }
+
     &__close {
         cursor: pointer;
         padding: 1rem;
         position: absolute;
         top: 0;
         right: 0;
+    }
+
+    &__actions {
+        list-style-type: none;
+        padding: 0;
+        margin-left: -1rem;
+        margin-right: -1rem;
+        margin-bottom: 0;
+
+        li {
+            margin-bottom: 0;
+
+            a {
+                display: block;
+                padding: .5rem 1rem .5rem .75rem;
+                border-left: .25rem solid transparent;
+
+                &:hover {
+                    border-left-color: $color-blue;
+                    background: $color-blue-20;
+                }
+            }
+        }
     }
 }

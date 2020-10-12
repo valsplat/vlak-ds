@@ -1,0 +1,27 @@
+.vds-openable {
+    position: relative;
+
+    &__trigger {
+        background: transparent;
+        border: none;
+        appearance: none;
+    }
+
+    &__content {
+        position: absolute;
+        display: none;
+        z-index: 1;
+    }
+
+    &--active {
+        .vds-openable__content {
+            display: block;
+        }
+    }
+
+    &--pos-top-right {
+        .vds-openable__content {
+            right: -0.5rem;
+        }
+    }
+}
