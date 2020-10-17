@@ -41,6 +41,10 @@
         width: 14rem;
     }
 
+    &--width-large {
+        width: 21rem;
+    }
+
     &__close {
         cursor: pointer;
         padding: 1rem;
@@ -68,6 +72,11 @@
                     border-left-color: $color-blue;
                     background: $color-blue-20;
                 }
+            }
+
+            & > span {
+                display: block;
+                padding: .5rem 1rem .5rem 1rem;
             }
         }
     }
