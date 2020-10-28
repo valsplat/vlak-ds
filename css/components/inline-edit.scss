@@ -55,6 +55,13 @@
         line-height: 2.5rem;
     }
 
+    &__hint {
+        @extend .text-size--s;
+        display: block;
+        color: $color-black-60;
+        margin-bottom: 1rem;
+    }
+
     &__submit {
         margin-left: 1rem;
     }
