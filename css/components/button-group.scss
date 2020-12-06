@@ -63,6 +63,18 @@
             }
         }
 
+        &[disabled] {
+            background: $color-black-03;
+            border-color: $color-black-20;
+            color: $color-black-40;
+            cursor: not-allowed;
+            pointer-events: none;
+
+            i {
+                background-color: $color-black-40;
+            }
+        }
+
         i {
             top: 0;
         }
