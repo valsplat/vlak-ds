@@ -81,5 +81,11 @@
             border-color: $color-blue;
             box-shadow: 0 0 0 0.25rem lighten($color-blue, 40);
         }
+
+        &[disabled] {
+            background-color: $color-black-03;
+            color: $color-black-60;
+            cursor: not-allowed;
+        }
     }
 }
