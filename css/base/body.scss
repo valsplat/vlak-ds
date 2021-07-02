@@ -9,6 +9,7 @@ body {
     width: 100%;
     display: flex;
     flex-direction: column;
+    text-size-adjust: none;
 
     &.body--fixed {
         position: fixed;
