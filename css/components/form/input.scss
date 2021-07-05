@@ -33,11 +33,11 @@
         cursor: not-allowed;
     }
 
-    &:invalid {
+    &:not(:empty):invalid {
         border-color: $color-red;
     }
 
-    &:invalid:focus {
+    &:not(:empty):invalid:focus {
         box-shadow: 0 0 0 0.25rem lighten($color-red, 40);
     }
 
