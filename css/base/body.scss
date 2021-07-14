@@ -10,6 +10,7 @@ body {
     display: flex;
     flex-direction: column;
     text-size-adjust: none;
+    -webkit-text-size-adjust: none;
 
     &.body--fixed {
         position: fixed;
