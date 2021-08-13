@@ -83,39 +83,35 @@
 }
 
 .choices[data-type*=select-one]:after {
-    // content: '';
-    // height: 0;
-    // width: 0;
-    // border-style: solid;
-    // border-color: #333 transparent transparent;
-    // border-width: 5px;
-    // position: absolute;
-    // right: 11.5px;
-    // top: 50%;
-    // margin-top: -2.5px;
-    // pointer-events: none
+    content: '';
+    width: 1.5rem;
+    height: 1.5rem;
+    mask-image: url('../../../img/icons/expand_more-24px.svg');
+    background: $color-blue;
+    position: absolute;
+    top: 25%;
+    right: .5rem;
 }
 
 .choices[data-type*=select-one].is-open:after {
-    border-color: transparent transparent #333;
-    margin-top: -7.5px
+    transform: rotate(180deg);
 }
 
 .choices[data-type*=select-one][dir=rtl]:after {
-    left: 11.5px;
-    right: auto
+    left: .5rem;
+    right: auto;
 }
 
 .choices[data-type*=select-one][dir=rtl] .choices__button {
     right: auto;
     left: 0;
     margin-left: 25px;
-    margin-right: 0
+    margin-right: 0;
 }
 
 .choices[data-type*=select-multiple] .choices__inner,
 .choices[data-type*=text] .choices__inner {
-    cursor: text
+    cursor: text;
 }
 
 .choices[data-type*=select-multiple] .choices__button,
