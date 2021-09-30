@@ -87,6 +87,7 @@
     width: 1.5rem;
     height: 1.5rem;
     mask-image: url('../../../img/icons/expand_more-24px.svg');
+    -webkit-mask-image: url('../../../img/icons/expand_more-24px.svg');
     background: $color-blue;
     position: absolute;
     top: 25%;
