@@ -58,6 +58,18 @@
             mask-image: url('../../img/icons/arrow_downward-24px.svg');
             -webkit-mask-image: url('../../img/icons/arrow_downward-24px.svg');
         }
+
+        &.text-align--right {
+            &[aria-sort="ascending"], &[aria-sort="descending"] {
+                padding-left: 0;
+                padding-right: 24px;
+            }
+
+            &:after {
+                right: 0px;
+                left: unset;
+            }
+        }
     }
 
     &[data-sortable="true"] {
