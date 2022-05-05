@@ -4,15 +4,51 @@
     position: relative;
     text-align: left;
 
+    .vds-control__icon {
+        position: absolute;
+        top: .5rem;
+        z-index: 1;
+    }
+
+    &--icon-both {
+        .vds-control__icon:first-child {
+            left: .5rem;
+        }
+        .vds-control__icon:last-child {
+            right: .5rem;
+        }
+
+        .vds-control__input {
+            padding-right: 2.5rem;
+            padding-left: 2.5rem;
+        }
+
+        textarea {
+            resize: vertical;
+        }
+    }
+
     &--icon-left {
         .vds-control__icon {
-            position: absolute;
-            top: calc(50% - .5rem);
             left: .5rem;
         }
 
-        .vds-input {
+        .vds-control__input {
             padding-left: 2.5rem;
+        }
+    }
+
+    &--icon-right {
+        .vds-control__icon {
+            right: .5rem;
+        }
+
+        .vds-control__input {
+            padding-right: 2.5rem;
+        }
+
+        textarea {
+            resize: vertical;
         }
     }
 
