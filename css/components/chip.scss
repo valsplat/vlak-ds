@@ -1,0 +1,21 @@
+.vds-chip {
+    padding: 4px 8px;
+    border-radius: .25rem;
+
+    .vds-icon {
+        mask-size: 20px;
+        mask-position: center;
+        mask-repeat: no-repeat;
+        -webkit-mask-size: 20px;
+        -webkit-mask-position: center;
+        -webkit-mask-repeat: no-repeat;
+
+        a:hover {
+            .vds-icon {
+                background: $color-blue;
+            }
+        }
+    }
+
+    @include colors;
+}
