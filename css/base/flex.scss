@@ -1,0 +1,8 @@
+.vds-flex {
+    display: flex;
+    gap: .5rem;
+
+    &--wrap {
+        flex-wrap: wrap;
+    }
+}

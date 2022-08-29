@@ -1,6 +1,7 @@
 @import "base/reset";
 @import "base/variables";
 @import "base/typography";
+@import "base/flex";
 @import "base/grid";
 @import "base/body";
 @import "base/utils";
@@ -14,6 +15,7 @@
 @import "components/button";
 @import "components/button-group";
 @import "components/card";
+@import "components/chip";
 @import "components/container";
 @import "components/counter";
 @import "components/definition-list";
