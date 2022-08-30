@@ -30,7 +30,6 @@ button[aria-label][data-balloon-pos] {
         width: 0;
         height: 0;
         border: .25rem solid transparent;
-        border-top-color: $color-black;
         opacity: 0;
         pointer-events: none;
         transition: all 0.18s ease-out 0.18s;
@@ -49,10 +48,39 @@ button[aria-label][data-balloon-pos] {
         }
 
         &:before {
+            border-top-color: $color-black;
             bottom: 100%;
             left: 50%;
             transform: translate(-50%, .25rem);
             transform-origin: top;
+        }
+
+        &:hover, &[data-balloon-visible] {
+            &:after {
+                transform: translate(-50%, 0);
+            }
+
+            &:before {
+                transform: translate(-50%, 0);
+            }
+        }
+    }
+
+    &[data-balloon-pos="down"] {
+        &:after {
+            top: 100%;
+            left: 50%;
+            margin-top: .5rem;
+            transform: translate(-50%, .25rem);
+            transform-origin: bottom;
+        }
+
+        &:before {
+            border-bottom-color: $color-black;
+            top: 100%;
+            left: 50%;
+            transform: translate(-50%, .25rem);
+            transform-origin: bottom;
         }
 
         &:hover, &[data-balloon-visible] {
