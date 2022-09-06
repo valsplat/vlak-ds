@@ -4,6 +4,7 @@
     &__trigger {
         display: inline-block;
         min-width: 1.5rem;
+        min-height: 1rem;
         border-bottom: 1px dotted $color-black-20;
 
         &:hover {
