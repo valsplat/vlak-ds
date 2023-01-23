@@ -27,6 +27,19 @@
         border: 1px solid $color-black-20;
     }
 
+    &--group {
+        margin-bottom: 0;
+        border-top: 0;
+        
+        &:first-of-type {
+            border-top: 1px solid $color-black-20;
+        }
+        
+        &:last-of-type {
+            margin-bottom: 1.5rem;
+        }
+    }
+
     @media (min-width: $breakpoint-l) {
         &--horizontal {
             display: flex;
