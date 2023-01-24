@@ -3,12 +3,13 @@
 
     &__trigger {
         display: inline-block;
-        min-width: 1.5rem;
-        min-height: 1rem;
+        min-width: 5rem;
+        min-height: 1.5rem;
         border-bottom: 1px dotted $color-black-20;
 
         &:hover {
             background: $color-blue-20;
+            border-bottom: 1px dotted $color-blue;
             border-radius: .25rem;
             cursor: pointer;
         }
@@ -20,13 +21,6 @@
         top: 24px;
         left: 0;
         background: $color-white;
-
-        @supports (backdrop-filter: blur(8px)) or (-webkit-backdrop-filter: blur(8px)) {
-            background: rgba(255,255,255,.6);
-            backdrop-filter: blur(8px);
-            -webkit-backdrop-filter: blur(8px);
-        }
-
         padding: .5rem;
         border: 1px solid $color-black-20;
         box-shadow: 0 4px 8px 0 rgba(0,0,0,0.25);
@@ -58,18 +52,28 @@
 
     &__hint {
         @extend .text-size--s;
-        display: block;
         color: $color-black-60;
-        margin-bottom: 1rem;
+        display: block;
+        max-width:25rem;
+        padding: 1rem .25rem;
     }
 
     &__submit {
         margin-left: 1rem;
+        height: 2.5em;
     }
 
     &__cancel {
         margin-left: .25rem;
+        height: 2.5em;
+        font-size:1rem;
+        padding:0 .25rem;
+        line-height: 1.5rem;
         display: flex;
         align-items: center;
+        
+        i {
+            top:0;
+        }
     }
 }
