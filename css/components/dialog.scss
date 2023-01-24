@@ -15,11 +15,11 @@
 
     &:not([aria-hidden='true']) {
         & > .vds-dialog__overlay {
-            animation: fade-in 160ms 1 both;
+            animation: fade-in $duration-m 1 both;
         }
 
         & > .vds-dialog__dialog {
-            animation: appear 160ms 80ms 1 both;
+            animation: appear $duration-m $duration-s 1 both;
         }
     }
 
