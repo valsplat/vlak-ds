@@ -8,6 +8,14 @@
     white-space: nowrap;
 }
 
+@keyframes vds-fadeOut {
+    from {opacity:1;}
+    to {opacity:0;}
+}
+.vds-hide {
+    animation: vds-fadeOut $duration-l;
+}
+
 .hidden {
     display: none !important;
 }
