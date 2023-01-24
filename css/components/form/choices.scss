@@ -151,7 +151,7 @@
 
 .is-focused .choices__inner,
 .is-open .choices__inner {
-    border-color: #b7b7b7
+    border-color: $color-black-40
 }
 
 .is-open .choices__inner {
@@ -224,8 +224,8 @@
     z-index: 1;
     position: absolute;
     width: 100%;
-    background-color: #fff;
-    border: 1px solid #ddd;
+    background-color: $color-white;
+    border: 1px solid $color-black-20;
     top: 100%;
     margin-top: -1px;
     border-bottom-left-radius: 2.5px;
@@ -240,7 +240,7 @@
 }
 
 .is-open .choices__list--dropdown {
-    border-color: #b7b7b7
+    border-color: $color-black-40
 }
 
 .is-flipped .choices__list--dropdown {
@@ -294,7 +294,7 @@
 }
 
 .choices__list--dropdown .choices__item--selectable.is-highlighted {
-    background-color: #f2f2f2
+    background-color: $color-black-03
 }
 
 .choices__list--dropdown .choices__item--selectable.is-highlighted:after {
@@ -321,8 +321,8 @@
     font-weight: 600;
     font-size: 12px;
     padding: 10px;
-    border-bottom: 1px solid #f7f7f7;
-    color: gray
+    border-bottom: 1px solid $color-black-03;
+    color: $color-black-60;
 }
 
 .choices__button {

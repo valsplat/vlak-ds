@@ -41,7 +41,7 @@
         }
 
         &::after {
-            color: white;
+            color: $color-white;
             content: attr(data-on);
             left: .5rem;
             opacity: 0;
@@ -65,7 +65,7 @@
     }
 
     &__handle {
-        background-color: #fff;
+        background-color: $color-white;
         border-radius: 10px;
         height: 1rem;
         left: .25rem;
@@ -75,7 +75,7 @@
         width: 1rem;
 
         &::before {
-            background-color: #f9f9f9;
+            background-color: $color-black-03;
             border-radius: 10rem;
             content: "";
             height: 12px;
