@@ -86,6 +86,15 @@
         vertical-align: top;
     }
 
+    &__td {
+        &--border-dimmed {
+            border-bottom: 1px solid $color-black-10;
+        }
+        &--border-none {
+            border-bottom:none !important;
+        }
+    }
+
     &--sortable {
         thead td, th {
             &:hover {
@@ -97,6 +106,18 @@
     &__tr {
         &--yellow-20 {
             background: $color-yellow-20;
+        }
+
+        &--border-dimmed {
+            td {
+                border-bottom: 1px solid $color-black-10;
+            }
+        }
+
+        &--border-none {
+            td {
+                border-bottom: none;
+            }
         }
     }
 }
