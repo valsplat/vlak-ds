@@ -79,6 +79,128 @@ $breakpoint-xl: 88rem;
 
 @mixin colors {
   &--yellow {
+    color: $color-yellow;
+  }
+
+  &--yellow-40 {
+    color: $color-yellow-40;
+  }
+
+  &--yellow-60 {
+    color: $color-yellow-60;
+  }
+
+  &--yellow-80 {
+    color: $color-yellow-80;
+  }
+
+  &--turquoise {
+    color: $color-turquoise;
+  }
+
+  &--turquoise-40 {
+    color: $color-turquoise-40;
+  }
+
+  &--turquoise-60 {
+    color: $color-turquoise-60;
+  }
+
+  &--turquoise-80 {
+    color: $color-turquoise-80;
+  }
+
+  &--red {
+    color: $color-red;
+  }
+
+  &--red-40 {
+    color: $color-red-40;
+  }
+
+  &--red-60 {
+    color: $color-red-60;
+  }
+
+  &--red-80 {
+    color: $color-red-80;
+  }
+
+  &--blue {
+    color: $color-blue;
+  }
+
+  &--blue-40 {
+    color: $color-blue-40;
+  }
+
+  &--blue-60 {
+    color: $color-blue-60;
+  }
+
+  &--blue-80 {
+    color: $color-blue-80;
+  }
+
+  &--purple {
+    color: $color-purple;
+  }
+
+  &--purple-40 {
+    color: $color-purple-40;
+  }
+
+  &--purple-60 {
+    color: $color-purple-60;
+  }
+
+  &--purple-80 {
+    color: $color-purple-80;
+  }
+
+  &--orange {
+    color: $color-orange;
+  }
+
+  &--orange-40 {
+    color: $color-orange-40;
+  }
+
+  &--orange-60 {
+    color: $color-orange-60;
+  }
+
+  &--orange-80 {
+    color: $color-orange-80;
+  }
+
+  &--green {
+    color: $color-green;
+  }
+
+  &--green-40 {
+    color: $color-green-40;
+  }
+
+  &--green-60 {
+    color: $color-green-60;
+  }
+
+  &--green-80 {
+    color: $color-green-80;
+  }
+
+  &--black-10 {
+    color: $color-black-10;
+  }
+
+  &--black-20 {
+    color: $color-black-20;
+  }
+}
+
+@mixin background-colors {
+  &--yellow {
     background: $color-yellow;
     color: $color-black;
   }

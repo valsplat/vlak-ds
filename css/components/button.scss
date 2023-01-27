@@ -1,5 +1,5 @@
 .vds-button {
-    -webkit-appearance: none;
+    appearance: none;
     padding: .5rem 1rem;
     border-radius: .25rem;
     border: none;
@@ -20,6 +20,7 @@
 
         &:hover {
             background: darken($color-blue, 10);
+            text-decoration: none;
             color: $color-white;
         }
 
@@ -49,6 +50,7 @@
         &:hover {
             background: $color-blue;
             color: $color-white;
+            text-decoration: none;
 
             i {
                 background: $color-white;
