@@ -190,12 +190,16 @@ $breakpoint-xl: 88rem;
     color: $color-green-80;
   }
 
+  &--black-20 {
+    color: $color-black-20;
+  }
+
   &--black-10 {
     color: $color-black-10;
   }
 
-  &--black-20 {
-    color: $color-black-20;
+  &--black-03 {
+    color: $color-black-03;
   }
 }
 
@@ -335,13 +339,18 @@ $breakpoint-xl: 88rem;
     color: $color-black;
   }
 
+  &--black-20 {
+    background: $color-black-20;
+    color: $color-black;
+  }
+
   &--black-10 {
     background: $color-black-10;
     color: $color-black;
   }
 
-  &--black-20 {
-    background: $color-black-20;
+  &--black-03 {
+    background: $color-black-03;
     color: $color-black;
   }
 }
