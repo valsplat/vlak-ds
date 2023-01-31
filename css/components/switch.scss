@@ -60,6 +60,14 @@
         }
     }
 
+    &__input--red:checked  ~ .vds-switch__label {
+        background-color: $color-red;
+    }
+
+    &__input--green:checked  ~ .vds-switch__label {
+        background-color: $color-green;
+    }
+
     &__input:checked ~ .vds-switch__handle {
         left: 36px;
     }
