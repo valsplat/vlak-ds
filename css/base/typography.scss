@@ -166,6 +166,12 @@ ul, .ul {
     }
 }
 
+li, .li {
+    &--compact {
+        margin-bottom:0;
+    }
+}
+
 ol {
     margin: 0;
     margin-bottom: 1.5rem;
